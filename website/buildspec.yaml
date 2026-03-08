@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       nodejs: 24
     commands:
+      - cd website
       - npm install
 
   build:
