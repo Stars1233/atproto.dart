@@ -16090,6 +16090,7 @@ const toolsOzoneModerationEmitEvent = <String, dynamic>{
                 "tools.ozone.moderation.defs#modEventPriorityScore",
                 "tools.ozone.moderation.defs#ageAssuranceEvent",
                 "tools.ozone.moderation.defs#ageAssuranceOverrideEvent",
+                "tools.ozone.moderation.defs#ageAssurancePurgeEvent",
                 "tools.ozone.moderation.defs#revokeAccountCredentialsEvent",
                 "tools.ozone.moderation.defs#scheduleTakedownEvent",
                 "tools.ozone.moderation.defs#cancelScheduledTakedownEvent",
@@ -16179,6 +16180,7 @@ const toolsOzoneModerationDefs = <String, dynamic>{
             "#modEventPriorityScore",
             "#ageAssuranceEvent",
             "#ageAssuranceOverrideEvent",
+            "#ageAssurancePurgeEvent",
             "#revokeAccountCredentialsEvent",
             "#scheduleTakedownEvent",
             "#cancelScheduledTakedownEvent",
@@ -16239,6 +16241,7 @@ const toolsOzoneModerationDefs = <String, dynamic>{
             "#modEventPriorityScore",
             "#ageAssuranceEvent",
             "#ageAssuranceOverrideEvent",
+            "#ageAssurancePurgeEvent",
             "#revokeAccountCredentialsEvent",
             "#scheduleTakedownEvent",
             "#cancelScheduledTakedownEvent",
@@ -16709,6 +16712,19 @@ const toolsOzoneModerationDefs = <String, dynamic>{
         "comment": {
           "type": "string",
           "description": "Comment describing the reason for the override.",
+          "minLength": 1,
+        },
+      },
+    },
+    "ageAssurancePurgeEvent": {
+      "type": "object",
+      "description":
+          "Purges all age assurance events for the subject. Only works on DID subjects. Moderator-only.",
+      "required": ["comment"],
+      "properties": {
+        "comment": {
+          "type": "string",
+          "description": "Comment describing the reason for the purge.",
           "minLength": 1,
         },
       },
