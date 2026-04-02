@@ -974,6 +974,30 @@ const appBskyUnspeccedGetSuggestedStarterPacksSkeleton =
 const appBskyUnspeccedGetSuggestedUsers =
     'app.bsky.unspecced.getSuggestedUsers';
 
+/// `app.bsky.unspecced.getSuggestedUsersForDiscover`
+const appBskyUnspeccedGetSuggestedUsersForDiscover =
+    'app.bsky.unspecced.getSuggestedUsersForDiscover';
+
+/// `app.bsky.unspecced.getSuggestedUsersForDiscoverSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForDiscoverSkeleton =
+    'app.bsky.unspecced.getSuggestedUsersForDiscoverSkeleton';
+
+/// `app.bsky.unspecced.getSuggestedUsersForExplore`
+const appBskyUnspeccedGetSuggestedUsersForExplore =
+    'app.bsky.unspecced.getSuggestedUsersForExplore';
+
+/// `app.bsky.unspecced.getSuggestedUsersForExploreSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForExploreSkeleton =
+    'app.bsky.unspecced.getSuggestedUsersForExploreSkeleton';
+
+/// `app.bsky.unspecced.getSuggestedUsersForSeeMore`
+const appBskyUnspeccedGetSuggestedUsersForSeeMore =
+    'app.bsky.unspecced.getSuggestedUsersForSeeMore';
+
+/// `app.bsky.unspecced.getSuggestedUsersForSeeMoreSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForSeeMoreSkeleton =
+    'app.bsky.unspecced.getSuggestedUsersForSeeMoreSkeleton';
+
 /// `app.bsky.unspecced.getSuggestedUsersSkeleton`
 const appBskyUnspeccedGetSuggestedUsersSkeleton =
     'app.bsky.unspecced.getSuggestedUsersSkeleton';

@@ -551,6 +551,36 @@ const appBskyUnspeccedGetSuggestedUsers = NSID(
   ids.appBskyUnspeccedGetSuggestedUsers,
 );
 
+/// `app.bsky.unspecced.getSuggestedUsersForDiscover`
+const appBskyUnspeccedGetSuggestedUsersForDiscover = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForDiscover,
+);
+
+/// `app.bsky.unspecced.getSuggestedUsersForDiscoverSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForDiscoverSkeleton = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForDiscoverSkeleton,
+);
+
+/// `app.bsky.unspecced.getSuggestedUsersForExplore`
+const appBskyUnspeccedGetSuggestedUsersForExplore = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForExplore,
+);
+
+/// `app.bsky.unspecced.getSuggestedUsersForExploreSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForExploreSkeleton = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForExploreSkeleton,
+);
+
+/// `app.bsky.unspecced.getSuggestedUsersForSeeMore`
+const appBskyUnspeccedGetSuggestedUsersForSeeMore = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForSeeMore,
+);
+
+/// `app.bsky.unspecced.getSuggestedUsersForSeeMoreSkeleton`
+const appBskyUnspeccedGetSuggestedUsersForSeeMoreSkeleton = NSID(
+  ids.appBskyUnspeccedGetSuggestedUsersForSeeMoreSkeleton,
+);
+
 /// `app.bsky.unspecced.getSuggestedUsersSkeleton`
 const appBskyUnspeccedGetSuggestedUsersSkeleton = NSID(
   ids.appBskyUnspeccedGetSuggestedUsersSkeleton,
